@@ -46,6 +46,8 @@ Tracker music library for playing music and responding to musical cues. Intended
 
 <p>&nbsp;</p>
 
+![InjectCrash screenshot](/images/inject-crash.png)
+
 ## InjectCrash
 [Github](https://github.com/MrEricSir/InjectCrash)
 
@@ -57,14 +59,30 @@ Windows command line utility to crash another process. Useful for testing crash 
 
 Projects I have contributed to, either as an employee or volunteer.
 
+<p>&nbsp;</p>
+
+![Cardo screenshot](/images/cardo.png)
+
 ## Cardo
 [Home page](https://cardo-podcast.github.io/) | [Github](https://github.com/cardo-podcast/cardo)
+
+<p>&nbsp;</p>
+
+![Geary screenshot](/images/geary.png)
 
 ## Geary
 [Home page](https://wiki.gnome.org/Apps/Geary) | [Wikipedia](https://en.wikipedia.org/wiki/Geary_(e-mail_client)) | [GitLab](https://gitlab.gnome.org/GNOME/geary)
 
+Contributed as an employee of the Yorba Foundation.
+
+<p>&nbsp;</p>
+
+![Shotwell screenshot](/images/shotwell.png)
+
 ## Shotwell
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
+
+Contributed as an employee of the Yorba Foundation.
 
 <p>&nbsp;</p>
 
@@ -74,6 +92,8 @@ Projects I have contributed to, either as an employee or volunteer.
 [Home page](https://open-store.io/app/com.ubuntu.gallery) | [GitLab](https://gitlab.com/ubports/development/apps/lomiri-gallery-app)
 
 Photo gallery app comissioned by Canonical for Ubuntu Phone, intended to ship with the (unreleased) Ubuntu Edge handset.
+
+Contributed as an employee of the Yorba Foundation.
 
 <p>&nbsp;</p>
 
