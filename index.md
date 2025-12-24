@@ -2,15 +2,17 @@ Portfolio of my various open source works over the years.
 
 # Creator
 
+Projects I created and, in some cases, actively maintain.
+
 ## munimet.ro
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
 
 ## Fang
-![Fang screenshot](/images/fang.png){: width="250" .float-left}
+![Fang screenshot](/images/fang.png){: max-width="350" .float-left}
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
 
-* Tech used: C++, Qt, QML, Javascript, HTML, RSS, XML
+* Tech used: C++, Qt, QML, Javascript, SQLite, RSS, XML, HTML, CSS
 * Platforms: Windows, macOS, Linux, Android (experimental)
 
 [Github](https://github.com/MrEricSir/Fang)
@@ -23,6 +25,8 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 # Contributor
 
+Projects I have contributed to, either as an employee or volunteer.
+
 # Cardo
 [Home page](https://cardo-podcast.github.io/) | [Github](https://github.com/cardo-podcast/cardo)
 
@@ -31,3 +35,7 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 # Shotwell
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
+
+# Links
+
+<a href="https://www.buymeacoffee.com/MrEricSir" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
