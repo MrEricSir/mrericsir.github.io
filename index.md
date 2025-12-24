@@ -13,7 +13,7 @@ Projects I created and (in some cases) actively maintain.
 ![munimet.ro screenshot](/images/munimetro.png)
 
 ## munimet.ro
-[Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
+[Live site](http://munimet.ro) | [GitHub](https://github.com/MrEricSir/munimet.ro)
 
 "Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway via machine learning.
 
@@ -25,7 +25,7 @@ Projects I created and (in some cases) actively maintain.
 ![Fang screenshot](/images/fang.png)
 
 ## Fang
-[Github](https://github.com/MrEricSir/Fang)
+[GitHub](https://github.com/MrEricSir/Fang)
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
 
@@ -37,7 +37,7 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 ![Modiuplate Lua screenshot](/images/modipulate-lua.png)
 
 ## Modipulate
-[Github](https://github.com/MrEricSir/Modipulate)
+[GitHub](https://github.com/MrEricSir/Modipulate)
 
 Tracker music library for playing music and responding to musical cues. Intended to be used in video game development. Includes C and Lua bindings.
 
@@ -49,7 +49,7 @@ Tracker music library for playing music and responding to musical cues. Intended
 ![InjectCrash screenshot](/images/inject-crash.png)
 
 ## InjectCrash
-[Github](https://github.com/MrEricSir/InjectCrash)
+[GitHub](https://github.com/MrEricSir/InjectCrash)
 
 Windows command line utility to crash another process. Useful for testing crash reporters.
 
@@ -64,7 +64,7 @@ Projects I have contributed to, either as an employee or volunteer.
 ![Cardo screenshot](/images/cardo.png)
 
 ## Cardo
-[Home page](https://cardo-podcast.github.io/) | [Github](https://github.com/cardo-podcast/cardo)
+[Home page](https://cardo-podcast.github.io/) | [GitHub](https://github.com/cardo-podcast/cardo)
 
 <p>&nbsp;</p>
 
