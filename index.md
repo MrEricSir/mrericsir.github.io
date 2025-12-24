@@ -1,8 +1,12 @@
-Portfolio of my various open source works over the years.
+Hello and welcome!
+
+I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Masters of Science in Computer Science. Over the years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
+
+This is my portfolio of open source projects.
 
 # Creator
 
-Projects I created and, in some cases, actively maintain.
+Projects I created and (in some cases) actively maintain.
 
 <p>&nbsp;</p>
 
@@ -51,14 +55,21 @@ Tracker music player for using musical cues as inputs in video games. Includes C
 
 Projects I have contributed to, either as an employee or volunteer.
 
-# Cardo
+## Cardo
 [Home page](https://cardo-podcast.github.io/) | [Github](https://github.com/cardo-podcast/cardo)
 
-# Geary
+## Geary
 [Home page](https://wiki.gnome.org/Apps/Geary) | [Wikipedia](https://en.wikipedia.org/wiki/Geary_(e-mail_client)) | [GitLab](https://gitlab.gnome.org/GNOME/geary)
 
-# Shotwell
+## Shotwell
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
+
+<p>&nbsp;</p>
+
+![Ubuntu Touch Gallery app screenshot](/images/gallery-app.png)
+
+## Gallery for Ubuntu Touch
+[Home page](https://open-store.io/app/com.ubuntu.gallery) | [GitLab](https://gitlab.com/ubports/development/apps/lomiri-gallery-app)
 
 <p>&nbsp;</p>
 
