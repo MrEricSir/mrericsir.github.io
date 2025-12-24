@@ -15,7 +15,7 @@ Projects I created and (in some cases) actively maintain.
 ## munimet.ro
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
 
-"Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway using machine learning.
+"Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway via machine learning.
 
 * Tech used: Claude Code, Tensorflow, Python, Falcon, tkinter, Google Cloud Platform, HTML
 * Platform: Web
@@ -39,7 +39,7 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 ## Modipulate
 [Github](https://github.com/MrEricSir/Modipulate)
 
-Tracker music player for using musical cues as inputs in video games. Includes C and Lua bindings.
+Tracker music library for playing music and responding to musical cues. Intended to be used in video game development. Includes C and Lua bindings.
 
 * Tech used: C++, PortAudio, Lua
 * Platforms: Windows, macOS, Linux
@@ -48,6 +48,8 @@ Tracker music player for using musical cues as inputs in video games. Includes C
 
 ## InjectCrash
 [Github](https://github.com/MrEricSir/InjectCrash)
+
+Windows command line utility to crash another process. Useful for testing crash reporters.
 
 <p>&nbsp;</p>
 
@@ -70,6 +72,8 @@ Projects I have contributed to, either as an employee or volunteer.
 
 ## Gallery for Ubuntu Touch
 [Home page](https://open-store.io/app/com.ubuntu.gallery) | [GitLab](https://gitlab.com/ubports/development/apps/lomiri-gallery-app)
+
+Photo gallery app comissioned by Canonical for Ubuntu Phone, intended to ship with the (unreleased) Ubuntu Edge handset.
 
 <p>&nbsp;</p>
 
