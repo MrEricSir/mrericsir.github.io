@@ -9,10 +9,9 @@ Projects I created and, in some cases, actively maintain.
 
 <p>&nbsp;</p>
 
-## Fang
-
 ![Fang screenshot](/images/fang.png)
 
+## Fang
 [Github](https://github.com/MrEricSir/Fang)
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
@@ -22,10 +21,9 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 <p>&nbsp;</p>
 
-## Modipulate
-
 ![Modiuplate Lua screenshot](/images/modipulate-lua.png)
 
+## Modipulate
 [Github](https://github.com/MrEricSir/Modipulate)
 
 Tracker music player for using musical cues as inputs in video games. Includes C and Lua bindings.
@@ -37,6 +35,8 @@ Tracker music player for using musical cues as inputs in video games. Includes C
 
 ## InjectCrash
 [Github](https://github.com/MrEricSir/InjectCrash)
+
+<p>&nbsp;</p>
 
 # Contributor
 
@@ -50,6 +50,8 @@ Projects I have contributed to, either as an employee or volunteer.
 
 # Shotwell
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
+
+<p>&nbsp;</p>
 
 # Links
 
