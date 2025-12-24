@@ -4,8 +4,17 @@ Portfolio of my various open source works over the years.
 
 Projects I created and, in some cases, actively maintain.
 
+<p>&nbsp;</p>
+
+![munimet.ro screenshot](/images/munimetro.png)
+
 ## munimet.ro
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
+
+"Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway using machine learning.
+
+* Tech used: Claude Code, Tensorflow, Python, Falcon, tkinter, Google Cloud Platform, HTML
+* Platform: Web
 
 <p>&nbsp;</p>
 
