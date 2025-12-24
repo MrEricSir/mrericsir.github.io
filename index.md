@@ -8,17 +8,24 @@ Projects I created and, in some cases, actively maintain.
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
 
 ## Fang
-![Fang screenshot](/images/fang.png){: max-width="350" .float-left}
+[Github](https://github.com/MrEricSir/Fang)
+
+![Fang screenshot](/images/fang.png){: max-width="300"}
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
 
-* Tech used: C++, Qt, QML, Javascript, SQLite, RSS, XML, HTML, CSS
+* Tech used: C++, Qt, QML, CEF, Javascript, SQLite, RSS, XML, HTML, CSS
 * Platforms: Windows, macOS, Linux, Android (experimental)
-
-[Github](https://github.com/MrEricSir/Fang)
 
 ## Modipulate
 [Github](https://github.com/MrEricSir/Modipulate)
+
+![Modiuplate Lua screenshot](/images/modipulate-lua.png){: max-width="300"}
+
+Tracker music player for using musical cues as inputs in video games. Includes C and Lua bindings.
+
+* Tech used: C++, PortAudio, Lua
+* Platforms: Windows, macOS, Linux
 
 ## InjectCrash
 [Github](https://github.com/MrEricSir/InjectCrash)
