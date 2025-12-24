@@ -27,9 +27,9 @@ Projects I created and (in some cases) actively maintain.
 ## Fang
 [GitHub](https://github.com/MrEricSir/Fang)
 
-Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
+Easy to use cross-platform news reader with a QML frontend and custom RSS parser. Displays news via embedded Chromium (CEF.)
 
-* Tech used: C++, Qt, QML, CEF, Javascript, SQLite, RSS, XML, HTML, CSS
+* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, CSS
 * Platforms: Windows, macOS, Linux, Android (experimental)
 
 <p>&nbsp;</p>
@@ -53,6 +53,9 @@ Tracker music library for playing music and responding to musical cues. Intended
 
 Windows command line utility to crash another process. Useful for testing crash reporters.
 
+* Tech used: C++, Win32
+* Platforms: Windows
+
 <p>&nbsp;</p>
 
 # Contributor
@@ -66,6 +69,11 @@ Projects I have contributed to, either as an employee or volunteer.
 ## Cardo
 [Home page](https://cardo-podcast.github.io/) | [GitHub](https://github.com/cardo-podcast/cardo)
 
+Desktop podcast client. Contributed additional search engines, bug fixes, and translations.
+
+* Tech used: TypeScript, React, Tauri, Tailwind
+* Platforms: Windows, macOS, Linux
+
 <p>&nbsp;</p>
 
 ![Geary screenshot](/images/geary.png)
@@ -73,7 +81,12 @@ Projects I have contributed to, either as an employee or volunteer.
 ## Geary
 [Home page](https://wiki.gnome.org/Apps/Geary) | [Wikipedia](https://en.wikipedia.org/wiki/Geary_(e-mail_client)) | [GitLab](https://gitlab.gnome.org/GNOME/geary)
 
-Contributed as an employee of the Yorba Foundation.
+Easy to use email client for GNOME and compatible Linux desktops.
+
+Contributed initial UI, HTML email support, and parts of IMAP backend as an employee of the Yorba Foundation.
+
+* Tech used: Vala, GTK+, SQLite, IMAP, SMTP
+* Platform: Linux
 
 <p>&nbsp;</p>
 
@@ -82,7 +95,12 @@ Contributed as an employee of the Yorba Foundation.
 ## Shotwell
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
 
-Contributed as an employee of the Yorba Foundation.
+Easy to use photo manager for GNOME and compatible Linux desktops.
+
+Contributed RAW+JPEG support, custom MOV parser, and search UI as an employee of the Yorba Foundation.
+
+* Tech used: Vala, GTK+. GStreamer, SQLite
+* Platform: Linux
 
 <p>&nbsp;</p>
 
@@ -93,7 +111,10 @@ Contributed as an employee of the Yorba Foundation.
 
 Photo gallery app comissioned by Canonical for Ubuntu Phone, intended to ship with the (unreleased) Ubuntu Edge handset.
 
-Contributed as an employee of the Yorba Foundation.
+Contributed SQLite storage backend and iterated on UI as an employee of the Yorba Foundation.
+
+* Tech used: C++, Qt, QML, Javascript, SQLite
+* Platform: Linux
 
 <p>&nbsp;</p>
 
