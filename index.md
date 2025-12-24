@@ -17,7 +17,7 @@ Projects I created and (in some cases) actively maintain.
 
 "Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway via machine learning.
 
-* Tech used: Claude Code, Tensorflow, Python, Falcon, tkinter, Google Cloud Platform, HTML
+* Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML
 * Platform: Web
 
 <p>&nbsp;</p>
