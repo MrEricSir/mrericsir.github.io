@@ -7,25 +7,33 @@ Projects I created and, in some cases, actively maintain.
 ## munimet.ro
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
 
-## Fang
-[Github](https://github.com/MrEricSir/Fang)
+<p>&nbsp;</p>
 
-![Fang screenshot](/images/fang.png){: max-width="300"}
+## Fang
+
+![Fang screenshot](/images/fang.png)
+
+[Github](https://github.com/MrEricSir/Fang)
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
 
 * Tech used: C++, Qt, QML, CEF, Javascript, SQLite, RSS, XML, HTML, CSS
 * Platforms: Windows, macOS, Linux, Android (experimental)
 
-## Modipulate
-[Github](https://github.com/MrEricSir/Modipulate)
+<p>&nbsp;</p>
 
-![Modiuplate Lua screenshot](/images/modipulate-lua.png){: max-width="300"}
+## Modipulate
+
+![Modiuplate Lua screenshot](/images/modipulate-lua.png)
+
+[Github](https://github.com/MrEricSir/Modipulate)
 
 Tracker music player for using musical cues as inputs in video games. Includes C and Lua bindings.
 
 * Tech used: C++, PortAudio, Lua
 * Platforms: Windows, macOS, Linux
+
+<p>&nbsp;</p>
 
 ## InjectCrash
 [Github](https://github.com/MrEricSir/InjectCrash)
@@ -44,5 +52,7 @@ Projects I have contributed to, either as an employee or volunteer.
 [Home page](https://wiki.gnome.org/Apps/Shotwell) | [Wikipedia](https://en.wikipedia.org/wiki/Shotwell_(software)) | [GitLab](https://gitlab.gnome.org/GNOME/shotwell)
 
 # Links
+
+[![Connect on LinkedIn](images/linkedin.png)](https://www.linkedin.com/in/eric-p-gregory/)
 
 <a href="https://www.buymeacoffee.com/MrEricSir" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
