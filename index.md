@@ -15,7 +15,7 @@ Projects I created and (in some cases) actively maintain.
 ## munimet.ro
 [Live site](http://munimet.ro) | [GitHub](https://github.com/MrEricSir/munimet.ro)
 
-"Vibe coded" webapp that displays the current state of San Francisco's Muni Metro subway via machine learning.
+"Vibe coded" webapp that displays the current state of San Francisco's [Muni Metro](https://sfmta.com/munimetro) subway via machine learning.
 
 * Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML
 * Platform: Web
