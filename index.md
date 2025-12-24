@@ -1,4 +1,4 @@
-Portfolio of Eric Gregory's open source works.
+Portfolio of my various open source works over the years.
 
 # Creator
 
@@ -6,6 +6,13 @@ Portfolio of Eric Gregory's open source works.
 [Live site](http://munimet.ro) | [Github](https://github.com/MrEricSir/munimet.ro)
 
 ## Fang
+![Fang screenshot](/images/fang.png){: width="250" .float-left}
+
+Easy to use cross-platform news reader with a QML frontend and custom RSS parser. 
+
+* Tech used: C++, Qt, QML, Javascript, HTML, RSS, XML
+* Platforms: Windows, macOS, Linux, Android (experimental)
+
 [Github](https://github.com/MrEricSir/Fang)
 
 ## Modipulate
