@@ -2,7 +2,7 @@ Hello and welcome!
 
 I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Masters of Science in Computer Science. Over the years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
 
-This is my portfolio of open source projects.
+This portfolio highlights my work on open source projects.
 
 # Creator
 
