@@ -17,7 +17,7 @@ Projects I created and (in some cases) actively maintain.
 
 "Vibe coded" webapp that displays the current state of San Francisco's [Muni Metro](https://sfmta.com/munimetro) subway via machine learning.
 
-* Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML
+* Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML, GitHub Actions
 * Platform: Web
 
 <p>&nbsp;</p>
@@ -29,7 +29,7 @@ Projects I created and (in some cases) actively maintain.
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. Displays news via embedded Chromium (CEF.)
 
-* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, CSS
+* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, CSS, GitHub Actions
 * Platforms: Windows, macOS, Linux, Android (experimental)
 
 <p>&nbsp;</p>
