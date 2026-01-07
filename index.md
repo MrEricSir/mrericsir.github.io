@@ -34,6 +34,20 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 <p>&nbsp;</p>
 
+![He is the one](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRuZnV1eXMwZm54bXg4aXNuajR3cXQ1NTFrMzlibHNlOWp5NHJnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aqLEgEvlGAFZ6zS4E5/giphy.gif)
+
+## QSingleInstanceCheck
+[GitHub](https://github.com/MrEricSir/QSingleInstanceCheck)
+
+Originally developed for Fang, this simple header-only library can be used to not only ensure that one and only one instance of your
+app is running, but also send a signal to the original instance. In Fang this signal is primarly used on Windows to show the app
+when it's been minimized to the system tray.
+
+* Tech used: C++, Qt, shared memory, local socket/named pipe
+* Platforms: Windows, macOS, Linux
+
+<p>&nbsp;</p>
+
 ![Modiuplate Lua screenshot](/images/modipulate-lua.png)
 
 ## Modipulate
