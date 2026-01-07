@@ -25,7 +25,7 @@ Projects I created and (in some cases) actively maintain.
 ![Fang screenshot](/images/fang.png)
 
 ## Fang
-[GitHub](https://github.com/MrEricSir/Fang)
+[Home page](https://getfang.com) | [GitHub](https://github.com/MrEricSir/Fang)
 
 Easy to use cross-platform news reader with a QML frontend and custom RSS parser. Displays news via embedded Chromium (CEF.)
 
