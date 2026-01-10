@@ -39,7 +39,7 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 ## QSingleInstanceCheck
 [GitHub](https://github.com/MrEricSir/QSingleInstanceCheck)
 
-Originally developed for Fang, this simple header-only library can be used to not only ensure that one and only one instance of your
+Originally developed for Fang, this simple C++ header-only library can be used to not only ensure that one and only one instance of your
 app is running, but also send a signal to the original instance. In Fang this signal is primarly used on Windows to show the app
 when it's been minimized to the system tray.
 
