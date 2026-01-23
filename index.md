@@ -34,6 +34,19 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 <p>&nbsp;</p>
 
+![How Many Bags logo](/images/how_many_bags.jpg)
+
+## How Many Bags?
+[Home page](https://www.howmanybags.com) | [GitHub](https://github.com/MrEricSir/OnCinemaRatings)
+
+Provides movie ratings from every episode of Tim Heidecker and Gregg Turkington's long-running comedy series,
+[On Cinema at the Cinema.](https://en.wikipedia.org/wiki/On_Cinema)
+
+* Tech used: HTML, JSON, Javascript, GitHub Actions
+* Platform: Web
+
+<p>&nbsp;</p>
+
 ![He is the one](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRuZnV1eXMwZm54bXg4aXNuajR3cXQ1NTFrMzlibHNlOWp5NHJnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aqLEgEvlGAFZ6zS4E5/giphy.gif)
 
 ## QSingleInstanceCheck
