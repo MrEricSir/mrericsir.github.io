@@ -47,6 +47,20 @@ Provides movie ratings from every episode of Tim Heidecker and Gregg Turkington'
 
 <p>&nbsp;</p>
 
+![Photo of the Golden Gate Bridge (public domain)](/images/bridge.jpg)
+
+## selenium-webext-bridge
+[GitHub](https://github.com/MrEricSir/selenium-webext-bridge) | [npm](https://www.npmjs.com/package/selenium-webext-bridge)
+
+This npm library is aimed at engineers developing Firefox extensions who wish to verify them with Selenium tests. This grew out of
+a Firefox extension I was working on, as there was no way for Selenium to deal with Firefox tabs or easily communicate with extensions
+once they were installed.
+
+* Tech used: Javascript, Selenium, Firefox, WebExtension, GitHub Actions, npm
+* Platforms: Windows, macOS, Linux
+
+<p>&nbsp;</p>
+
 ![He is the one](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRuZnV1eXMwZm54bXg4aXNuajR3cXQ1NTFrMzlibHNlOWp5NHJnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aqLEgEvlGAFZ6zS4E5/giphy.gif)
 
 ## QSingleInstanceCheck
