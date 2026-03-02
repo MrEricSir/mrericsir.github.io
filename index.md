@@ -110,9 +110,21 @@ Projects I have contributed to, either as an employee or volunteer.
 ## Cardo
 [Home page](https://cardo-podcast.github.io/) | [GitHub](https://github.com/cardo-podcast/cardo)
 
-Desktop podcast client. Contributed additional search engines, bug fixes, and translations.
+Desktop podcast client. Contributed additional search engines, bug fixes, and translations. Officially a project collaborate as of March 2026.
 
 * Tech used: TypeScript, React, Tauri, Tailwind
+* Platforms: Windows, macOS, Linux
+
+<p>&nbsp;</p>
+
+![Jellyfin Desktop screenshot](/images/jellyfin_desktop.png)
+
+## Jellyfin Desktop
+[GitHub](https://github.com/jellyfin/jellyfin-desktop/)
+
+Desktop client for the [Jellyfin Media System](https://jellyfin.org/). Contributed build and setup scripts and bug fixes.
+
+* Tech used: C++, Qt, QML
 * Platforms: Windows, macOS, Linux
 
 <p>&nbsp;</p>
