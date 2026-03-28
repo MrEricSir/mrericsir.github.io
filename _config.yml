@@ -1,0 +1,67 @@
+# Site Settings
+title: "Eric Gregory | Open Source Portfolio"
+description: Open source portfolio
+url: https://mrericsir.github.io
+repository: MrEricSir/mrericsir.github.io
+
+# Theme
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "dark"
+
+# Build
+markdown: kramdown
+
+footer_scripts:
+  - /assets/js/vendor/jquery/jquery-3.6.0.js
+  - /assets/js/plugins/smooth-scroll.min.js
+  - /assets/js/plugins/gumshoe.js
+  - /assets/js/plugins/jquery.greedy-navigation.js
+  - /assets/js/plugins/jquery.magnific-popup.js
+  - /assets/js/_main.js
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+# Disable feed link in head
+atom_feed:
+  hide: true
+
+# Author sidebar
+author:
+  name: "Eric Gregory"
+  bio: "Software engineer, source evangelist, tinkerer, traveler, explorer."
+  location: "San Francisco, CA"
+  links:
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://www.mrericsir.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MrEricSir"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eric-p-gregory/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: false
+
+# Footer
+footer:
+  links:
+    - label: "Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://www.mrericsir.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MrEricSir"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/eric-p-gregory/"

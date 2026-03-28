@@ -1,15 +1,37 @@
+---
+layout: single
+author_profile: false
+title: " "
+---
+
+<div class="about-section" markdown="1">
+
+# Eric Gregory
+
+Software engineer, open source contributor, tinkerer, traveler, environmentalist.
+
+<i class="fas fa-fw fa-location-dot"></i> San Francisco, California
+
+</div>
+
+<div class="portfolio-section" markdown="1">
+
+## Open Source Portfolio
+
 Hello and welcome!
 
 I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Masters of Science in Computer Science. Over the years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
 
 This portfolio highlights my work on open source projects.
 
-# Creator
+</div>
+
+
+# Creator {#creator}
 
 Projects I created and (in some cases) actively maintain.
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![munimet.ro screenshot](/images/munimetro.png)
 
 ## munimet.ro
@@ -19,9 +41,9 @@ Projects I created and (in some cases) actively maintain.
 
 * Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML, GitHub Actions
 * Platform: Web
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Fang screenshot](/images/fang.png)
 
 ## Fang
@@ -31,9 +53,9 @@ Easy to use cross-platform news reader with a QML frontend and custom RSS parser
 
 * Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, CSS, GitHub Actions
 * Platforms: Windows, macOS, Linux, Android (experimental)
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![How Many Bags logo](/images/how_many_bags.jpg)
 
 ## How Many Bags?
@@ -44,9 +66,9 @@ Provides movie ratings from every episode of Tim Heidecker and Gregg Turkington'
 
 * Tech used: HTML, JSON, Javascript, GitHub Actions
 * Platform: Web
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Photo of the Golden Gate Bridge (public domain)](/images/bridge.jpg)
 
 ## selenium-webext-bridge
@@ -58,23 +80,35 @@ once they were installed.
 
 * Tech used: Javascript, Selenium, Firefox, WebExtension, GitHub Actions, npm
 * Platforms: Windows, macOS, Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![He is the one](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRuZnV1eXMwZm54bXg4aXNuajR3cXQ1NTFrMzlibHNlOWp5NHJnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aqLEgEvlGAFZ6zS4E5/giphy.gif)
 
 ## QSingleInstanceCheck
 [GitHub](https://github.com/MrEricSir/QSingleInstanceCheck)
 
-Originally developed for Fang, this simple C++ header-only library can be used to not only ensure that one and only one instance of your
-app is running, but also send a signal to the original instance. In Fang this signal is primarly used on Windows to show the app
-when it's been minimized to the system tray.
+Originally developed for Fang, this simple C++ header-only library can be used to not only ensure that one and only one instance of your app is running, but also send a signal to the original instance. In Fang this signal is primarly used on Windows to show the app when it's been minimized to the system tray.
 
 * Tech used: C++, Qt, shared memory, local socket/named pipe
 * Platforms: Windows, macOS, Linux
+</div>
 
-<p>&nbsp;</p>
 
+<div class="project" markdown="1">
+![Power button](/images/autostart.png)
+
+## QAutoStart
+[GitHub](https://github.com/MrEricSir/QAutoStart)
+
+Also developed for Fang, this C++ library allows your Qt application to launch at user login. Designed to be easy to use, with only a single line of code to enable or disable the feature.
+
+* Tech used: C++, Qt
+* Platforms: Windows, macOS, Linux
+</div>
+
+
+<div class="project" markdown="1">
 ![Modiuplate Lua screenshot](/images/modipulate-lua.png)
 
 ## Modipulate
@@ -84,9 +118,9 @@ Tracker music library for playing music and responding to musical cues. Intended
 
 * Tech used: C++, PortAudio, Lua
 * Platforms: Windows, macOS, Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![InjectCrash screenshot](/images/inject-crash.png)
 
 ## InjectCrash
@@ -96,15 +130,13 @@ Windows command line utility to crash another process. Useful for testing crash 
 
 * Tech used: C++, Win32
 * Platforms: Windows
+</div>
 
-<p>&nbsp;</p>
-
-# Contributor
+# Contributor {#contributor}
 
 Projects I have contributed to, either as an employee or volunteer.
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Cardo screenshot](/images/cardo.png)
 
 ## Cardo
@@ -114,9 +146,9 @@ Desktop podcast client. Contributed additional search engines, bug fixes, and tr
 
 * Tech used: TypeScript, React, Tauri, Tailwind
 * Platforms: Windows, macOS, Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Jellyfin Desktop screenshot](/images/jellyfin_desktop.png)
 
 ## Jellyfin Desktop
@@ -126,9 +158,9 @@ Desktop client for the [Jellyfin Media System](https://jellyfin.org/). Contribut
 
 * Tech used: C++, Qt, QML
 * Platforms: Windows, macOS, Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Geary screenshot](/images/geary.png)
 
 ## Geary
@@ -140,9 +172,9 @@ Contributed initial UI, HTML email support, and parts of IMAP backend as an empl
 
 * Tech used: Vala, GTK+, SQLite, IMAP, SMTP
 * Platform: Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Shotwell screenshot](/images/shotwell.png)
 
 ## Shotwell
@@ -154,9 +186,9 @@ Contributed RAW+JPEG support, custom MOV parser, and search UI as an employee of
 
 * Tech used: Vala, GTK+. GStreamer, SQLite
 * Platform: Linux
+</div>
 
-<p>&nbsp;</p>
-
+<div class="project" markdown="1">
 ![Ubuntu Touch Gallery app screenshot](/images/gallery-app.png)
 
 ## Gallery for Ubuntu Touch
@@ -168,11 +200,4 @@ Contributed SQLite storage backend and iterated on UI as an employee of the Yorb
 
 * Tech used: C++, Qt, QML, Javascript, SQLite
 * Platform: Linux
-
-<p>&nbsp;</p>
-
-# Links
-
-[![Connect on LinkedIn](images/linkedin.png)](https://www.linkedin.com/in/eric-p-gregory/)
-
-<a href="https://www.buymeacoffee.com/MrEricSir" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</div>
