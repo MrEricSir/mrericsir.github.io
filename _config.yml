@@ -23,6 +23,7 @@ footer_scripts:
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-sitemap
 
 # Disable feed link in head
