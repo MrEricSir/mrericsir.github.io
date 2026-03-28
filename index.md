@@ -8,7 +8,7 @@ title: " "
 
 # Eric Gregory
 
-Software engineer, open source contributor, tinkerer, traveler, environmentalist.
+Software engineer, open source evangelist, tinkerer, traveler, explorer.
 
 <i class="fas fa-fw fa-location-dot"></i> San Francisco, California
 
