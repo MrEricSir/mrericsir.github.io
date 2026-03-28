@@ -1,0 +1,7 @@
+main:
+  - title: "About"
+    url: "/#"
+  - title: "Creator"
+    url: "/#creator"
+  - title: "Contributor"
+    url: "/#contributor"

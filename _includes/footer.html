@@ -1,0 +1,19 @@
+{% assign locale = include.locale | default: site.locale %}
+<div class="page__footer-follow">
+  {% if site.footer.links %}
+  <ul class="social-icons">
+    {% if site.data.ui-text[locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% for link in site.footer.links %}
+      {% if link.label and link.url %}
+        <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer{% if link.rel %} {{ link.rel }}{% endif %}"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label | escape_once | strip }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <div class="footer__coffee">
+    <a href="https://www.buymeacoffee.com/MrEricSir" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"></a>
+  </div>
+</div>
