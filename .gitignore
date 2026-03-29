@@ -22,3 +22,5 @@ Gemfile.lock
 
 # Local server pid
 .jekyll.pid 
+private/
+
