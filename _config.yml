@@ -38,6 +38,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/eric-p-gregory/"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file"
+      url: "https://mrericsir.github.io/resume/"
 
 # Defaults
 defaults:
@@ -59,3 +62,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/eric-p-gregory/"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file"
+      url: "https://mrericsir.github.io/resume/"

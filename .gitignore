@@ -19,3 +19,6 @@ Gemfile.lock
 
 # macOS
 .DS_Store
+
+# Local server pid
+.jekyll.pid 

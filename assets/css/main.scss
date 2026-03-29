@@ -24,7 +24,7 @@ $large: 768px !default;
   left: 0;
   z-index: 1000;
   display: block;
-  width: 220px;
+  width: 176px;
   height: 186px;
   overflow: hidden;
   border-radius: 0 0 25% 0;
@@ -54,7 +54,7 @@ $large: 768px !default;
 // Narrow mode: shrink cat badge (below $large breakpoint)
 @media (max-width: #{$large - 1}) {
   .floating-logo {
-    width: 120px;
+    width: 96px;
     height: 100px;
   }
 }
@@ -135,7 +135,7 @@ $large: 768px !default;
   @include breakpoint($large) {
     padding-top: 2em;
     padding-bottom: 1em;
-    padding-left: 240px; // clear the 220px cat badge
+    padding-left: 196px; // clear the 176px cat badge
   }
 
   // Narrow: content below the smaller cat badge
