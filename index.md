@@ -20,7 +20,7 @@ Software engineer, open source evangelist, tinkerer, traveler, explorer.
 
 Hello and welcome!
 
-I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Masters of Science in Computer Science. Over the years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
+I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Master of Science in Computer Science. Over the following years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
 
 This portfolio highlights my work on open source projects.
 
@@ -37,7 +37,7 @@ Projects I created and (in some cases) actively maintain.
 ## munimet.ro
 [Live site](http://munimet.ro) | [GitHub](https://github.com/MrEricSir/munimet.ro)
 
-"Vibe coded" webapp that displays the current state of San Francisco's [Muni Metro](https://sfmta.com/munimetro) subway via machine learning.
+My first "vibe coded" webapp displays the current state of San Francisco's [Muni Metro](https://sfmta.com/munimetro) subway via machine learning, using Google Cloud Run as the backend.
 
 * Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML, GitHub Actions
 * Platform: Web
@@ -49,9 +49,9 @@ Projects I created and (in some cases) actively maintain.
 ## Fang
 [Home page](https://getfang.com) | [GitHub](https://github.com/MrEricSir/Fang)
 
-Easy to use cross-platform news reader with a QML frontend and custom RSS parser. Displays news via embedded Chromium (CEF.)
+Want to catch up on the news? My easy to use cross-platform news reader features a QML frontend and custom RSS/Atom/Sitemap/JSON parser. Displays news via embedded Chromium (CEF.)
 
-* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, CSS, GitHub Actions
+* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, JSON, CSS, GitHub Actions
 * Platforms: Windows, macOS, Linux, Android (experimental)
 </div>
 
