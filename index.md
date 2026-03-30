@@ -4,21 +4,10 @@ author_profile: false
 title: " "
 ---
 
-<div class="about-section" markdown="1">
-
-# Eric Gregory
-
-San Francisco, California
-
-Software engineer, open source evangelist, tinkerer, traveler, explorer.
-
-<span class="about-email">Reach me at <a href="mailto:eric.paul.gregory@gmail.com">eric.paul.gregory@gmail.com</a></span>
-
-</div>
 
 <div class="portfolio-section" markdown="1">
 
-## Open Source Portfolio
+# Open Source Portfolio
 
 I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Master of Science in Computer Science. Over the following years I've become a generalist, tackling projects ranging from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
 
@@ -43,7 +32,7 @@ Projects I created and (in some cases) actively maintain.
 
 My first "vibe coded" webapp displays the current state of San Francisco's [Muni Metro](https://sfmta.com/munimetro) subway via machine learning, using Google Cloud Run as the backend.
 
-* Tech used: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML, GitHub Actions
+* Tech: Claude Code, PyTorch, Python, Falcon, tkinter, Google Cloud Platform, HTML, GitHub Actions
 * Platform: Web
 </div>
 
@@ -55,7 +44,7 @@ My first "vibe coded" webapp displays the current state of San Francisco's [Muni
 
 Want to catch up on the news? My easy to use cross-platform news reader features a QML frontend and custom RSS/Atom/Sitemap/JSON parser. Displays news via embedded Chromium (CEF.)
 
-* Tech used: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, JSON, CSS, GitHub Actions
+* Tech: C++, Qt, QML, CEF, WebSocket, Javascript, SQLite, RSS, XML, HTML, JSON, CSS, GitHub Actions
 * Platforms: Windows, macOS, Linux, Android (experimental)
 </div>
 
@@ -68,7 +57,7 @@ Want to catch up on the news? My easy to use cross-platform news reader features
 Provides movie ratings from every episode of Tim Heidecker and Gregg Turkington's long-running comedy series,
 [On Cinema at the Cinema.](https://en.wikipedia.org/wiki/On_Cinema)
 
-* Tech used: HTML, JSON, Javascript, GitHub Actions
+* Tech: HTML, JSON, Javascript, GitHub Actions
 * Platform: Web
 </div>
 
@@ -82,7 +71,7 @@ This npm library is aimed at engineers developing Firefox extensions who wish to
 a Firefox extension I was working on, as there was no way for Selenium to deal with Firefox tabs or easily communicate with extensions
 once they were installed.
 
-* Tech used: Javascript, Selenium, Firefox, WebExtension, GitHub Actions, npm
+* Tech: Javascript, Selenium, Firefox, WebExtension, GitHub Actions, npm
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -94,7 +83,7 @@ once they were installed.
 
 Originally developed for Fang, this simple C++ header-only library can be used to not only ensure that one and only one instance of your app is running, but also send a signal to the original instance. In Fang this signal is primarly used on Windows to show the app when it's been minimized to the system tray.
 
-* Tech used: C++, Qt, shared memory, local socket/named pipe
+* Tech: C++, Qt, shared memory, local socket/named pipe
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -107,7 +96,7 @@ Originally developed for Fang, this simple C++ header-only library can be used t
 
 Also developed for Fang, this C++ library allows your Qt application to launch at user login. Designed to be easy to use, with only a single line of code to enable or disable the feature.
 
-* Tech used: C++, Qt
+* Tech: C++, Qt
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -120,7 +109,7 @@ Also developed for Fang, this C++ library allows your Qt application to launch a
 
 Tracker music library for playing music and responding to musical cues. Intended to be used in video game development. Includes C and Lua bindings.
 
-* Tech used: C++, PortAudio, Lua
+* Tech: C++, PortAudio, Lua
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -132,7 +121,7 @@ Tracker music library for playing music and responding to musical cues. Intended
 
 Windows command line utility to crash another process. Useful for testing crash reporters.
 
-* Tech used: C++, Win32
+* Tech: C++, Win32
 * Platforms: Windows
 </div>
 
@@ -152,7 +141,7 @@ Projects I have contributed to, either as an employee or volunteer.
 
 Desktop podcast client. Contributed additional search engines, bug fixes, and translations. Officially a project collaborate as of March 2026.
 
-* Tech used: TypeScript, React, Tauri, Tailwind
+* Tech: TypeScript, React, Tauri, Tailwind
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -164,7 +153,7 @@ Desktop podcast client. Contributed additional search engines, bug fixes, and tr
 
 Desktop client for the [Jellyfin Media System](https://jellyfin.org/). Contributed build and setup scripts and bug fixes.
 
-* Tech used: C++, Qt, QML
+* Tech: C++, Qt, QML
 * Platforms: Windows, macOS, Linux
 </div>
 
@@ -178,7 +167,7 @@ Easy to use email client for GNOME and compatible Linux desktops.
 
 Contributed initial UI, HTML email support, and parts of IMAP backend as an employee of the Yorba Foundation.
 
-* Tech used: Vala, GTK+, SQLite, IMAP, SMTP
+* Tech: Vala, GTK+, SQLite, IMAP, SMTP
 * Platform: Linux
 </div>
 
@@ -192,7 +181,7 @@ Easy to use photo manager for GNOME and compatible Linux desktops.
 
 Contributed RAW+JPEG support, custom MOV parser, and search UI as an employee of the Yorba Foundation.
 
-* Tech used: Vala, GTK+. GStreamer, SQLite
+* Tech: Vala, GTK+. GStreamer, SQLite
 * Platform: Linux
 </div>
 
@@ -206,6 +195,6 @@ Photo gallery app comissioned by Canonical for Ubuntu Phone, intended to ship wi
 
 Contributed SQLite storage backend and iterated on UI as an employee of the Yorba Foundation.
 
-* Tech used: C++, Qt, QML, Javascript, SQLite
+* Tech: C++, Qt, QML, Javascript, SQLite
 * Platform: Linux
 </div>

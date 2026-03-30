@@ -45,12 +45,21 @@ $large: 768px !default;
   padding-left: 1.5em;
 }
 
-// Sticky masthead — fixed at top, centered
+// Hero section — fills viewport, pushes masthead to bottom
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+
+  @media (max-width: #{$large - 1}) {
+    min-height: auto;
+  }
+}
+
+// Masthead — at bottom of viewport initially, fixes to top on scroll
 .masthead {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 100;
   margin-bottom: 0 !important;
   border-bottom: none !important;
@@ -59,15 +68,17 @@ $large: 768px !default;
   backdrop-filter: blur(12px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 
+  &.masthead--fixed {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   // Hide menu on narrow screens
   @media (max-width: #{$large - 1}) {
     display: none;
   }
-}
-
-.masthead__inner-wrap {
-  padding: 0 !important;
-  justify-content: center !important;
 }
 
 // Simple centered nav — equal thirds with padding to constrain width
@@ -92,26 +103,28 @@ $large: 768px !default;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-family: $sans-serif-narrow;
-    color: $text-color;
+    color: rgba($text-color, 0.6);
     padding-bottom: 0.2em;
     border-bottom: 2px solid transparent;
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, color 0.2s;
 
     &:hover {
       color: $text-color;
       border-bottom-color: $link-color;
     }
+
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: none;
+    }
   }
 }
 
-// No top padding on content — frame-banner handles the masthead spacer
-.initial-content {
-  padding-top: 0;
-}
 
-// Decorative frame banner — centered below masthead, with background
+// Decorative frame banner — above masthead
 .frame-banner {
-  padding-top: 60px; // clear the fixed masthead
+  padding-top: 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -161,19 +174,10 @@ $large: 768px !default;
   padding-top: 0 !important;
 }
 
-.page__content {
-  > .about-section:first-child {
-    margin-top: 0;
-  }
-}
-
 // About section — name, bio, location (no background)
 .about-section {
   padding: 1em 1.5em;
-  margin-left: -2.5em;
-  margin-right: -1em;
-  margin-top: -1em;
-  padding-left: 2.5em;
+  margin: 0;
   text-align: center;
 
   h1 {
@@ -239,6 +243,7 @@ $large: 768px !default;
 .header-link {
   display: none !important;
 }
+
 
 // Project cards — alternating image left/right using CSS grid
 .project {
