@@ -1,0 +1,12 @@
+<nav class="site-nav" aria-label="Primary navigation">
+  <ul>
+    {%- for link in site.data.navigation.main -%}
+      <li>
+        <a href="{% if link.url contains '#' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"
+          {% if link.description %} title="{{ link.description }}"{% endif %}
+          {% if link.target %} target="{{ link.target }}"{% endif %}
+        >{{ link.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

@@ -11,9 +11,20 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    <a class="floating-logo" href="/"><img src="/images/silhouette.png" alt="Eric Gregory"></a>
     {% include_cached skip-links.html locale=locale %}
-    {% include_cached masthead.html locale=locale %}
+
+    <div class="hero-section">
+      <div class="frame-banner">
+        <img class="frame-silhouette" src="/images/eric-silhouette.png" alt="Eric Gregory silhouette">
+        <img class="frame-outline" src="/images/frame-outline.png" alt="Decorative frame">
+      </div>
+
+      {% include about.html %}
+
+      <div class="masthead">
+        {% include masthead.html %}
+      </div>
+    </div>
 
     <div class="initial-content">
       {{ content }}
@@ -34,5 +45,43 @@
     </div>
 
     {% include scripts.html locale=locale %}
+
+    <script>
+    (function() {
+      var masthead = document.querySelector('.masthead');
+      var offsetTop = masthead.offsetTop;
+
+      function onScroll() {
+        if (window.scrollY >= offsetTop) {
+          masthead.classList.add('masthead--fixed');
+        } else {
+          masthead.classList.remove('masthead--fixed');
+        }
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      window.addEventListener('resize', function() {
+        // Temporarily unfix to measure true position
+        masthead.classList.remove('masthead--fixed');
+        offsetTop = masthead.offsetTop;
+        onScroll();
+      });
+
+      // Handle anchor clicks — scroll with offset to clear fixed menu
+      document.querySelectorAll('.site-nav a[href^="#"]').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          var hash = this.getAttribute('href');
+          if (hash === '#') return; // let About scroll to top normally
+          var target = document.querySelector(hash);
+          if (target) {
+            e.preventDefault();
+            var menuHeight = masthead.offsetHeight;
+            var targetPos = target.getBoundingClientRect().top + window.scrollY - menuHeight - 16;
+            window.scrollTo({ top: targetPos, behavior: 'smooth' });
+          }
+        });
+      });
+    })();
+    </script>
   </body>
 </html>
