@@ -1,6 +1,6 @@
 main:
   - title: "About"
-    url: "/#"
+    url: "#"
   - title: "Creator"
     url: "/#creator"
   - title: "Contributor"

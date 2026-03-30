@@ -11,9 +11,15 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    <a class="floating-logo" href="/"><img src="/images/silhouette.png" alt="Eric Gregory"></a>
     {% include_cached skip-links.html locale=locale %}
-    {% include_cached masthead.html locale=locale %}
+    <div class="masthead">
+      {% include masthead.html %}
+    </div>
+
+    <div class="frame-banner">
+      <img class="frame-silhouette" src="/images/eric-silhouette.png" alt="Eric Gregory silhouette">
+      <img class="frame-outline" src="/images/frame-outline.png" alt="Decorative frame">
+    </div>
 
     <div class="initial-content">
       {{ content }}

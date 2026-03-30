@@ -11,52 +11,21 @@ $large: 768px !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Hide site title text but keep it taking up space so greedy-nav can calculate overflow
-.site-title {
-  visibility: hidden;
+// Google Sans Flex — local font
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('/assets/fonts/google-sans-flex-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-
-// Floating cat image — fixed to top-left badge
-.floating-logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display: block;
-  width: 176px;
-  height: 186px;
-  overflow: hidden;
-  border-radius: 0 0 25% 0;
-  background: #fff;
-  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.6);
-
-  img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-  }
-}
-
-// Remove focus outline from hamburger button
-.greedy-nav__toggle:focus {
-  outline: none;
-}
-
-// When hamburger is active, hide remaining visible links but keep layout
-.greedy-nav.all-collapsed .visible-links {
-  visibility: hidden;
-  flex: 1;
-}
-
-// Narrow mode: shrink cat badge (below $large breakpoint)
-@media (max-width: #{$large - 1}) {
-  .floating-logo {
-    width: 96px;
-    height: 100px;
-  }
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('/assets/fonts/google-sans-flex-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 // Full width content (no sidebar)
@@ -76,15 +45,116 @@ $large: 768px !default;
   padding-left: 1.5em;
 }
 
-// Eliminate gap between masthead and content
+// Sticky masthead — fixed at top, centered
 .masthead {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   margin-bottom: 0 !important;
   border-bottom: none !important;
   padding-bottom: 0 !important;
+  background: rgba($background-color, 0.6);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+  // Hide menu on narrow screens
+  @media (max-width: #{$large - 1}) {
+    display: none;
+  }
 }
 
 .masthead__inner-wrap {
-  padding-bottom: 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+}
+
+// Simple centered nav — equal thirds with padding to constrain width
+.site-nav {
+  width: 100%;
+  padding: 0 20%;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-family: $sans-serif-narrow;
+    color: $text-color;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+
+    &:hover {
+      color: $text-color;
+      border-bottom-color: $link-color;
+    }
+  }
+}
+
+// No top padding on content — frame-banner handles the masthead spacer
+.initial-content {
+  padding-top: 0;
+}
+
+// Decorative frame banner — centered below masthead, with background
+.frame-banner {
+  padding-top: 60px; // clear the fixed masthead
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 455px;
+  margin-bottom: 0;
+  background-image: url('/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .frame-outline {
+    height: 100%;
+    width: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .frame-silhouette {
+    position: absolute;
+    height: 193px;
+    width: auto;
+    z-index: 2;
+  }
+
+  @media (max-width: #{$large - 1}) {
+    padding-top: 0;
+    height: 244px;
+
+    .frame-silhouette {
+      height: 103px; // scale proportionally with frame
+    }
+  }
 }
 
 #main {
@@ -97,50 +167,30 @@ $large: 768px !default;
   }
 }
 
-// About section — name, bio, location with background image
+// About section — name, bio, location (no background)
 .about-section {
-  position: relative;
-  padding: 2em 1.5em;
+  padding: 1em 1.5em;
   margin-left: -2.5em;
   margin-right: -1em;
   margin-top: -1em;
   padding-left: 2.5em;
-  background-image: url('/images/hero-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 0 0 $border-radius $border-radius;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 0 0 $border-radius $border-radius;
-  }
-
-  > * {
-    position: relative;
-    z-index: 1;
-  }
+  text-align: center;
 
   h1 {
     margin-top: 0;
+    font-family: 'Google Sans Flex', serif;
   }
 
-  // Wide: shift content right to sit beside the cat badge
+  .about-email {
+    display: block;
+    font-size: 0.8em;
+    margin-top: -0.5em;
+    opacity: 0.6;
+  }
+
   @include breakpoint($large) {
     padding-top: 2em;
     padding-bottom: 1em;
-    padding-left: 196px; // clear the 176px cat badge
-  }
-
-  // Narrow: content below the smaller cat badge
-  @media (max-width: #{$large - 1}) {
-    padding-top: 70px;
   }
 }
 
@@ -159,6 +209,20 @@ $large: 768px !default;
   }
 }
 
+// Section headers — centered Creator/Contributor headings
+.section-header {
+  text-align: center;
+
+  h1 {
+    font-family: 'Google Sans Flex', serif;
+  }
+}
+
+// Google Sans Flex for project names
+.project h2 {
+  font-family: 'Google Sans Flex', serif;
+}
+
 // Portfolio intro section
 .portfolio-section {
   margin-top: 1.5em;
@@ -166,7 +230,14 @@ $large: 768px !default;
   h2 {
     border-bottom: none !important;
     padding-bottom: 0;
+    font-family: 'Google Sans Flex', serif;
+    text-align: center;
   }
+}
+
+// Hide permalink anchor icons
+.header-link {
+  display: none !important;
 }
 
 // Project cards — alternating image left/right using CSS grid

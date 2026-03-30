@@ -8,9 +8,11 @@ title: " "
 
 # Eric Gregory
 
+San Francisco, California
+
 Software engineer, open source evangelist, tinkerer, traveler, explorer.
 
-<i class="fas fa-fw fa-location-dot"></i> San Francisco, California
+<span class="about-email">Reach me at <a href="mailto:eric.paul.gregory@gmail.com">eric.paul.gregory@gmail.com</a></span>
 
 </div>
 
@@ -18,18 +20,20 @@ Software engineer, open source evangelist, tinkerer, traveler, explorer.
 
 ## Open Source Portfolio
 
-Hello and welcome!
-
-I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Master of Science in Computer Science. Over the following years I've become a generalist, working on everything from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
+I've been developing software since I was a teenager learning to code in [QBasic](https://en.wikipedia.org/wiki/QBasic), [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal), and [HyperCard](https://en.wikipedia.org/wiki/HyperCard). In 2009 I earned a Master of Science in Computer Science. Over the following years I've become a generalist, tackling projects ranging from embedded Linux systems to reverse engineering Windows applications to full stack web development -- and everything in between.
 
 This portfolio highlights my work on open source projects.
 
 </div>
 
 
+<div class="section-header" markdown="1">
+
 # Creator {#creator}
 
 Projects I created and (in some cases) actively maintain.
+
+</div>
 
 <div class="project" markdown="1">
 ![munimet.ro screenshot](/images/munimetro.png)
@@ -132,9 +136,13 @@ Windows command line utility to crash another process. Useful for testing crash 
 * Platforms: Windows
 </div>
 
+<div class="section-header" markdown="1">
+
 # Contributor {#contributor}
 
 Projects I have contributed to, either as an employee or volunteer.
+
+</div>
 
 <div class="project" markdown="1">
 ![Cardo screenshot](/images/cardo.png)
