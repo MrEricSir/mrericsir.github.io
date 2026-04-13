@@ -75,6 +75,20 @@ once they were installed.
 * Platforms: Windows, macOS, Linux
 </div>
 
+
+<div class="project" markdown="1">
+![QMLRearrangeableTreeView screenshot](/images/QMLRearrangeableTreeView.png)
+
+## QMLRearrangeableTreeView
+[GitHub](https://github.com/MrEricSir/QMLRearrangeableTreeView)
+
+QML user interface for a drag and drop rearrangable list with one-level deep folders. Supports both desktop and mobile touch screens. Example provided in both pure QML for rapid prototyping as well as a C++ backend.
+
+* Tech: QML, Qt, C++, Javascript
+* Platforms: Windows, macOS, Linux, Android, iOS
+</div>
+
+
 <div class="project" markdown="1">
 ![He is the one](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRuZnV1eXMwZm54bXg4aXNuajR3cXQ1NTFrMzlibHNlOWp5NHJnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aqLEgEvlGAFZ6zS4E5/giphy.gif)
 
@@ -97,6 +111,19 @@ Originally developed for Fang, this simple C++ header-only library can be used t
 Also developed for Fang, this C++ library allows your Qt application to launch at user login. Designed to be easy to use, with only a single line of code to enable or disable the feature.
 
 * Tech: C++, Qt
+* Platforms: Windows, macOS, Linux
+</div>
+
+
+<div class="project" markdown="1">
+![GI Joe parody - stop all the downloading](/images/stop_all_the_downloading.gif)
+
+## QWebDownload
+[GitHub](https://github.com/MrEricSir/QWebDownload/)
+
+Simple Qt/C++ library for downloading content from the web (HTTP and HTTPS) asynchronously with sensible defaults and retry options. Includes support for batch downloads.
+
+* Tech: C++, Qt, HTTP
 * Platforms: Windows, macOS, Linux
 </div>
 
